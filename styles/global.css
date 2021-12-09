@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navItem {
+    @apply text-xl font-bold text-white cursor-pointer;
+  }
+}
