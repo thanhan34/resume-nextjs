@@ -4,11 +4,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-
+      fontFamily: {
+        body: ['Chau Philomene One'],
+        content: ["Roboto"],
+      }
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

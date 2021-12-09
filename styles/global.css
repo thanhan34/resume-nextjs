@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Roboto:wght@400;500;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .navItem {
-    @apply text-xl font-bold text-white cursor-pointer;
+    @apply text-xl font-bold text-white cursor-pointer font-body;
   }
 }
