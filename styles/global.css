@@ -5,6 +5,12 @@
 
 @layer components {
   .navItem {
-    @apply text-xl font-bold text-white cursor-pointer font-body;
+    @apply font-bold text-white cursor-pointer md:text-xl font-body hover:text-yellow-400;
+  }
+  .devLogo {
+    @apply z-20 w-10 h-10 text-xl font-bold text-white bg-transparent hover:text-yellow-400;
+  }
+  .contact-input {
+    @apply z-20 w-full px-4 py-4 text-white bg-gray-600 border-none appearance-none focus:outline-none focus:bg-gray-600;
   }
 }
