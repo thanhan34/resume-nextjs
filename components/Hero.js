@@ -14,7 +14,7 @@ function Hero() {
         // console.log(container);
     };
     return (
-        <div id="home" className="w-full h-screen -mt-14" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")` }}>
+        <div id="home" className="w-full h-screen -mt-14" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")`, objectFit: "cover" }}>
             <Particles
                 className="fixed top-0 left-0 z-10"
                 id="tsparticles"

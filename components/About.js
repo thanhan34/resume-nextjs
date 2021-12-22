@@ -1,5 +1,11 @@
-
+import { saveAs } from "file-saver";
 function About() {
+    const saveFile = () => {
+        saveAs(
+            "https://drive.google.com/file/d/1ZwQok1nLpRxD67Rf8k7OqI4cbgO6SQ24/view?usp=sharing",
+            "AnDoan_ReactResume.pdf"
+        );
+    };
     return (
         <div id="about" className="z-20 grid h-screen grid-cols-1 p-5 mx-auto sm:max-w-screen-sm md:max-w-6xl md:grid-cols-3 font-content">
             <div class="col-span-3 sm:col-span-1 flex">
@@ -14,7 +20,6 @@ function About() {
                         <h1 className="text-3xl font-bold text-white">About me</h1>
                         <p className="max-w-sm mt-4 text-base text-gray-300 md:text-2xl md:max-w-full d font-content">I describe myself as a self-taught, self-driven, passionate learner and developer focusing on React, Node, and Java Technologies. Looking forward opportunties to working with ingenious teams on challenging projects.</p>
                     </div>
-
                 </div>
                 <div className="flex flex-col md:justify-center md:flex-row ">
                     <div className="flex-grow">
@@ -25,7 +30,7 @@ function About() {
                         <p className="text-base text-gray-300 md:text-xl font-content">0450669092</p>
                         <p className="text-base text-gray-300 md:text-xl font-content">dtan42@gmail.com</p>
                     </div >
-                    <button className="z-20 items-center justify-center w-full p-5 mt-10 text-white bg-yellow-400 shadow-xl md:w-1/2 h-4/6 rounded-xl hover:shadow-yellow-400/50 ">Download Resume</button>
+                    <button onClick={saveFile} className="z-20 items-center justify-center w-full p-5 mt-10 text-white bg-yellow-400 shadow-xl md:w-1/2 h-4/6 rounded-xl hover:shadow-yellow-400/50 ">Download Resume</button>
                 </div >
             </div >
         </div >
