@@ -49,7 +49,7 @@ function Resume() {
                         companyName="Starry Night Media"
                         descriptions={["Designed and built the e-commerce site for Starry Night Media from ground up.",
                             "Provided regular maintenance to ensure 99.9% site avalability.",
-                            "Manage websites",]}
+                        ]}
                         technologies={["CPanel hosting control panel for Apache server",
                             "MySQL database",
                             "Javascript (jQuery, Bootstrap)",

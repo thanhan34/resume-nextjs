@@ -6,7 +6,7 @@ import {
 import { IoLogoNpm } from 'react-icons/io'
 function Skills() {
     return (
-        <section id="skills" className="h-full max-w-3xl p-3 mx-auto mb-40 text-white md:h-screen">
+        <section id="skills" className="h-full max-w-3xl p-3 mx-auto text-white">
             <div className="mt-32">
                 <h2 className="mb-5 text-3xl text-center text-yellow-400 uppercase shadow-md md:text-6xl font-body shadow-yellow-400">SKILLS AND PROFICIENCY</h2>
                 <div>

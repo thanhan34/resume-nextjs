@@ -14,7 +14,7 @@ function Hero() {
         // console.log(container);
     };
     return (
-        <div id="home" className="w-full h-screen ">
+        <div id="home" className="w-full h-screen " >
             <Particles
                 className="fixed top-0 left-0 z-10"
                 id="tsparticles"

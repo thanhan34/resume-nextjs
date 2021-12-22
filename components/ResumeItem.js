@@ -9,8 +9,8 @@ function ResumeItem({ title, companyName, descriptions, technologies, isSKill })
             </div>
             <ul className="mt-5 text-base text-center text-white md:text-lg font-content md:text-left">
                 {
-                    descriptions.map((description) => (
-                        <li className="mt-3">{description}</li>
+                    descriptions.map((description, index) => (
+                        <li key={index} className="mt-3">{description}</li>
                     ))
                 }
             </ul>
@@ -21,8 +21,8 @@ function ResumeItem({ title, companyName, descriptions, technologies, isSKill })
                         <h4 className="mt-10 text-xl font-semibold text-center text-gray-200 md:text-2xl font-content md:text-left">Technologies involved</h4>
                         <ul className="mt-5 text-base text-center text-white md:text-lg font-content md:text-left">
                             {
-                                technologies.map((technique) => (
-                                    <li className="mt-3">{technique}</li>
+                                technologies.map((technique, index) => (
+                                    <li key={index} className="mt-3">{technique}</li>
                                 ))
                             }
 

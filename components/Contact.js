@@ -31,7 +31,7 @@ function Contact() {
                                 <label htmlFor="contactName" className="block pr-4 mb-1 font-bold text-white md:mb-0">Full Name <span>*</span></label>
                             </div>
                             <div className="relative z-20 md:w-3/4">
-                                <input type="text" className="contact-input" value={name} defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)} />
+                                <input type="text" className="contact-input" value={name} size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)} />
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ function Contact() {
                                 <label htmlFor="contactEmail" className="block pr-4 mb-1 font-bold text-white md:mb-0">Email <span>*</span></label>
                             </div>
                             <div className="relative z-20 md:w-3/4">
-                                <input type="text" className="contact-input" value={email} defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={e => setEmail(e.target.value)} />
+                                <input type="text" className="contact-input" value={email} size="35" id="contactEmail" name="contactEmail" onChange={e => setEmail(e.target.value)} />
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ function Contact() {
                                 <label htmlFor="contactSubject" className="block pr-4 mb-1 font-bold text-white md:mb-0">Subject <span>*</span></label>
                             </div>
                             <div className="relative z-20 md:w-3/4">
-                                <input type="text" className="contact-input" value={subject} defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)} />
+                                <input type="text" className="contact-input" value={subject} size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)} />
                             </div>
                         </div>
 
