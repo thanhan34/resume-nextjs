@@ -2,9 +2,24 @@
 import Image from "next/image";
 import Particles from "react-tsparticles";
 import particlesConfig from '../particlesConfig';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import heroImage from "../images/hero.jpg"
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import heroImage from "../images/hero.jpg";
+import Lottie from 'react-lottie';
+import animationData from '../public/cute-astronaut-operating-laptop.json'
+
+
 function Hero() {
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice",
+
+        },
+
+    }
     const particlesInit = (main) => {
         // console.log(main);
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -23,6 +38,8 @@ function Hero() {
                 params={particlesConfig}
 
             />
+
+
             <div className="absolute z-20 w-full text-center top-1/3">
                 <h1 className="text-5xl font-extrabold text-white font-body md:text-8xl">I'm An Doan</h1>
                 <h3 className="text-lg font-semibold text-gray-300 md:text-3xl font-body">I'm a Brisbane based <span className="font-bold text-white">React Developer</span></h3>
@@ -31,6 +48,13 @@ function Hero() {
                     <a href="https://github.com/thanhan34"><FaGithub className="devLogo" /></a>
                     <a href="https://www.linkedin.com/in/an-doan-3130b1133/"><FaLinkedinIn className="devLogo" /></a>
                 </div>
+                <Lottie
+                    options={defaultOptions}
+                    height={200}
+                    width={200}
+                // style={{ marginTop: "100px" }}
+
+                />
             </div>
         </div>
     )
