@@ -1,6 +1,9 @@
 {
+  "homepage": "http://thanhan34.github.io/resume-nextjs",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",  
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -12,6 +15,7 @@
     "@lottiefiles/lottie-player": "^1.5.4",
     "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
+    "gh-pages": "^3.2.3",
     "js-file-download": "^0.4.12",
     "next": "latest",
     "react": "^17.0.2",
