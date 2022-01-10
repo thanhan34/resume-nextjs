@@ -1,6 +1,9 @@
-# Next.js + Tailwind CSS Example
+# React Developer Portfolio Website.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+The website use Next JS, Tailwindcss for Frontend.
+            use useScrollPosition hook, reactSmoothScroll hook, lottiefiles for smooth animation
+            use React-tsparticles for background.
+            use Email JS for backend sending email.
 
 It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
