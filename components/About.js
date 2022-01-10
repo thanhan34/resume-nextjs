@@ -1,4 +1,5 @@
 import { saveAs } from "file-saver";
+
 function About() {
     const saveFile = () => {
         saveAs(
@@ -8,13 +9,13 @@ function About() {
     };
     return (
         <div id="about" className="z-20 grid h-screen grid-cols-1 p-5 mx-auto sm:max-w-screen-sm md:max-w-6xl md:grid-cols-3 font-content">
-            <div class="col-span-3 sm:col-span-1 flex">
-                <div class=" m-auto">
-                    <img src="https://scontent.fbne5-1.fna.fbcdn.net/v/t1.6435-9/71083781_10214932870304025_3054890081639727104_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=SGaImkNF3tkAX8UyEUV&_nc_ht=scontent.fbne5-1.fna&oh=91a315ffef30764760bd1d1d817fc64c&oe=61D78B0D" alt=""
+            <div className="flex col-span-3 sm:col-span-1">
+                <div className="m-auto ">
+                    <img src="/profile.jpg" alt=""
                         className="hidden rounded-full h-44 w-44 md:inline-flex" />
                 </div>
             </div>
-            <div class="col-span-1  md:col-span-2 m-auto space-y-10  ">
+            <div className="col-span-1 m-auto space-y-10 md:col-span-2 ">
                 <div className="flex flex-col items-center justify center">
                     <div className="flex-grow">
                         <h1 className="text-3xl font-bold text-white">About me</h1>
