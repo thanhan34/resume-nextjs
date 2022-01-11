@@ -6,11 +6,12 @@ import HamburgerMenu from './HamburgerMenu'
 import { useRecoilState } from 'recoil'
 import { isOpenState } from '../Atom/isOpenAtom'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
+
 function Header() {
     const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' })
     const [isOpen, setIsOpen] = useRecoilState(isOpenState)
     const [hideOnScroll, setHideOnScroll] = useState(false)
-    useScrollPosition(({ prevPos, currPos }) => {
+    useScrollPosition(({ currPos }) => {
         currPos.y > -100 ? setHideOnScroll(false) : setHideOnScroll(true)
     }, [hideOnScroll])
     return (
