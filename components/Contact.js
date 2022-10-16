@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com'
 import { useState } from 'react';
+import { Widget, PopupButton } from '@typeform/embed-react'
 function Contact() {
     const [name, setName] = useState('');
     const [subject, setSubject] = useState('');
@@ -22,8 +23,12 @@ function Contact() {
     return (
         <section id="contact" className="h-full max-w-3xl p-3 mx-auto text-white">
             <div className="mt-20">
-                <h2 className="mb-5 text-3xl text-center text-yellow-400 uppercase shadow-md md:text-6xl font-body shadow-yellow-400">Get In Touch</h2>
-                <div>
+
+                <div id="wrapper" data-tf-widget="NDNvzJlo" data-tf-inline-on-mobile data-tf-medium="snippet" ></div>
+                <h2 className="mt-20 mb-5 text-3xl text-center text-yellow-400 uppercase shadow-md md:text-6xl font-body shadow-yellow-400">Get In Touch</h2>
+                <Widget id="NDNvzJlo" height={500} className="relative z-20 mt-20 mb-20" />
+
+                {/* <div>
                     <p className="hidden italic md:block">Have a project for me? Think I'd be good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to contact with me. </p>
                     <form className="z-20 w-full mt-10" id="contactForm" name="#contactForm" onSubmit={sendEmail}>
                         <div className="mb-10 md:flex md:items-center">
@@ -70,7 +75,7 @@ function Contact() {
                             <button type='submit' value="Send" className="z-20 w-full p-5 font-bold text-white uppercase bg-yellow-400 shadow-xl md:w-1/2 h-4/6 rounded-xl hover:shadow-yellow-400/50 ">Submit</button>
                         </div>
                     </form>
-                </div>
+                </div> */}
 
 
             </div>

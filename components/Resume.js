@@ -25,7 +25,7 @@ function Resume() {
                         technologies={["Wordpress, Elementor, Woo Commerce, Event Tickets, The Events Calendar.",
                             "Frontend: ReactJS, Firebase v9, VueJS, TailwindCSS.",
                             "POAP - Proof of Attendance Protocol.",
-                            "CMR system: GetResponse"]}
+                            "CRM system: GetResponse"]}
                         isSKill={true}
                     />
                     <ul className="flex flex-wrap items-center justify-center mt-10 space-x-4 space-y-4">
