@@ -14,13 +14,16 @@ function Resume() {
                         title="Administrator - Web Developer - Tutor"
                         companyName="Mindcan LTP PYD - World Educational Robotics Contest Australia"
                         descriptions={[
-                            "Administrator of Mindcan website and WERAU website.",
-                            "Provided regular maintenance to ensure 99.9% site availability",
-                            "Preprared curriculum and tutoring After School Robotics class at Ashgrove State School, Moorooka State School",
-                            "Collaborated with outsource developer team in China for Marketplace project.",
-                            "Improving customer service by implementing Tidio to directly live chat with customers",
-                            "Implemented the Calendly book appointment system.",
-                            "Succesfully hosted the World Educational Robotics and Drone Competition Australia Open 2021, proudly supported by Australia Government, Brisbane City Council and Redland City Council."
+                            "Administrator two WordPress websites MINDCAN & WERAU.",
+                            "Applying web programming languages to design, develop and maintain the company's website, software application and database to meet users' needs.",
+                            "Provided regular maintenance to ensure 99.9% site availability.",
+                            "Testing, debugging, diagnosing and correcting problems to ensure acceptable quality.",
+                            "Deploying and releasing software to the production environment after completing functional testing.",
+                            "Writing documentation and operational procedures for end-users.",
+                            "Prepared curriculum and tutoring for after-school Robotics classes at Ashgrove State School and Moorooka State School.",
+                            "Collaborated with outsourcing developer team in China for Marketplace web project.",
+                            "Provided on-site IT support to staff for technical issues with printers, internet connectivity.",
+                            "Supporting marketing team to set up CRM system such as landing page, autoresponse, newsletter.",
                         ]}
                         technologies={["Wordpress, Elementor, Woo Commerce, Event Tickets, The Events Calendar.",
                             "Frontend: ReactJS, Firebase v9, VueJS, TailwindCSS.",

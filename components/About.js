@@ -11,7 +11,7 @@ function About() {
         <div id="about" className="z-20 grid h-screen grid-cols-1 p-5 mx-auto sm:max-w-screen-sm md:max-w-6xl md:grid-cols-3 font-content">
             <div className="flex col-span-3 sm:col-span-1">
                 <div className="m-auto ">
-                    <img src="/profile.png" alt=""
+                    <img src="/profile.jpg" alt=""
                         className="hidden rounded-full h-44 w-44 md:inline-flex" />
                 </div>
             </div>
