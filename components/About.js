@@ -11,7 +11,7 @@ function About() {
         <div id="about" className="z-20 grid h-screen grid-cols-1 p-5 mx-auto sm:max-w-screen-sm md:max-w-6xl md:grid-cols-3 font-content">
             <div className="flex col-span-3 sm:col-span-1">
                 <div className="m-auto ">
-                    <img src="/profile.jpg" alt=""
+                    <img src="/profile.png" alt=""
                         className="hidden rounded-full h-44 w-44 md:inline-flex" />
                 </div>
             </div>
@@ -25,7 +25,7 @@ function About() {
                 <div className="flex flex-col md:justify-center md:flex-row ">
                     <div className="flex-grow">
                         <h1 className="text-3xl font-bold text-white">Contact Details</h1>
-                        <p className="mt-4 text-base text-gray-300 md:text-xl font-content">An doan</p>
+                        <p className="mt-4 text-base text-gray-300 md:text-xl font-content">An Doan</p>
                         <p className="text-base text-gray-300 md:text-xl font-content">48 Derwent Place, Riverhills</p>
                         <p className="text-base text-gray-300 md:text-xl font-content">Brisbane QLD, 4074</p>
                         <p className="text-base text-gray-300 md:text-xl font-content">0450669092</p>
